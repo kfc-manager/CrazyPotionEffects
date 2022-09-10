@@ -1,0 +1,4 @@
+name: CrazyPotionEffects
+version: '${project.version}'
+main: com.kalle.crazypotioneffects.Main
+api-version: 1.19

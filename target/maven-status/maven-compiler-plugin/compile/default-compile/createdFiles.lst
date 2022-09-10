@@ -1,0 +1,9 @@
+com/kalle/crazypotioneffects/Main.class
+com/kalle/crazypotioneffects/Items/Cure.class
+com/kalle/crazypotioneffects/MyEffect.class
+com/kalle/crazypotioneffects/Events/PlayerDeath.class
+com/kalle/crazypotioneffects/Events/PlayerQuit.class
+com/kalle/crazypotioneffects/MyEffect$1.class
+com/kalle/crazypotioneffects/Config.class
+com/kalle/crazypotioneffects/EffectController.class
+com/kalle/crazypotioneffects/Events/PlayerJoin.class
