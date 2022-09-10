@@ -22,7 +22,7 @@ The reddit user u/B3n5__ made a post on the subreddit r/MinecraftPlugins in whic
 
 ## Installation
 
-In the project folder "CrazyPotionEffects/target/" is a compiled .jar file, which you can simply drag in your plugins folder of your server. Reload the server and the console should say: "CrasyPotionEffects has been enabled!". Also in your plugins folder should be a "CrazyPotionEffects" folder generated, which holds three .yml files. It is recommended that you do not make changes to the playerdata.yml file. However effects.yml and recipe.yml serve a configuration purpose for the plugin (but they do not need to be configured, they have default settings). Follow the **Configuration** instructions below, if you want to make changes to the plugin.
+In the project folder "CrazyPotionEffects/target/" is a compiled .jar file, which you can simply drag in your plugins folder of your server. You can also directly download the .jar with this link: https://github.com/kfc-manager/CrazyPotionEffects/raw/main/target/CrazyPotionEffects-1.0.jar . Reload the server and the console should say: "CrasyPotionEffects has been enabled!". Also in your plugins folder should be a "CrazyPotionEffects" folder generated, which holds three .yml files. It is recommended that you do not make changes to the playerdata.yml file. However effects.yml and recipe.yml serve a configuration purpose for the plugin (but they do not need to be configured, they have default settings). Follow the **Configuration** instructions below, if you want to make changes to the plugin.
 
 ## Configuration
 
