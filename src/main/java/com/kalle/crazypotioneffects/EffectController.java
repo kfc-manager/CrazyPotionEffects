@@ -151,13 +151,17 @@ public class EffectController {
     public static void newPlayer(MyEffect myEffect) {
         Random random = new Random();
         int n = random.nextInt(2); //50-50 chance of adding good or bad effect
-        if (n < 1) {
-            PotionEffectType effect = randomEffect(makeGoodList(new ArrayList<PotionEffectType>())); //get random good effect
-            myEffect.addGoodEffect(effect); //add the good effect
-            return;
+        try {
+            if (n < 1) {
+                PotionEffectType effect = randomEffect(makeGoodList(new ArrayList<PotionEffectType>())); //get random good effect
+                myEffect.addGoodEffect(effect); //add the good effect
+                return;
+            }
+            PotionEffectType effect = randomEffect(makeBadList(new ArrayList<PotionEffectType>())); //get random bad effect
+            myEffect.addBadEffect(effect); //add the bad effect
+        } catch (IndexOutOfBoundsException e) { //either no good or bad effects (or both) are added to the game via effects.yml (all values none)
+            return; //nothing needs to happen
         }
-        PotionEffectType effect = randomEffect(makeBadList(new ArrayList<PotionEffectType>())); //get random bad effect
-        myEffect.addBadEffect(effect); //add the bad effect
     }
 
     /**
